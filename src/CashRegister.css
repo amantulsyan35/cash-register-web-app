@@ -1,0 +1,67 @@
+.Cash-register {
+  width: 30%;
+  padding: 1em;
+  margin: auto;
+  color: white;
+}
+
+.Form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form-input label {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  color: #081c15;
+}
+
+.Form-input input {
+  outline: none;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.Check {
+  border: none;
+  outline: none;
+  padding: 1em;
+  width: 30%;
+  background-color: #74c69d;
+  color: #081c15;
+}
+
+/* Responsive css */
+
+@media (max-width: 576px) {
+  .Cash-register {
+    width: auto;
+    /* margin: 0; */
+  }
+
+  .Form-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Form-input label {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    color: #081c15;
+  }
+
+  .Form-input input {
+    outline: none;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+
+  .Check {
+    border: none;
+    outline: none;
+    padding: 1em;
+    width: 30%;
+    background-color: #74c69d;
+    color: #081c15;
+  }
+}

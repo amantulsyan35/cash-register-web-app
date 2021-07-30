@@ -1,0 +1,53 @@
+.Table {
+  height: 80px;
+  overflow-y: auto;
+}
+
+table {
+  margin: auto;
+  border: 1px solid black;
+  width: 100%;
+}
+
+table,
+tr,
+td {
+  border: 0.5px solid black;
+  border-collapse: collapse;
+  padding: 0.5em;
+  background-color: #74c69d;
+  color: #081c15;
+}
+
+.note {
+  background-color: white;
+}
+
+/* Responsive css */
+
+@media (max-width: 576px) {
+  .Table {
+    height: 80px;
+    overflow-y: auto;
+  }
+
+  table {
+    margin: auto;
+    border: 1px solid black;
+    width: 100%;
+  }
+
+  table,
+  tr,
+  td {
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+    background-color: #74c69d;
+    color: #081c15;
+  }
+
+  .note {
+    background-color: white;
+  }
+}
